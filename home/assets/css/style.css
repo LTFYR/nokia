@@ -1,0 +1,179 @@
+nav .container .row {
+  display: flex;
+  padding-top: 20px; }
+  nav .container .row .nav-links ul {
+    display: flex;
+    justify-content: space-evenly; }
+    nav .container .row .nav-links ul a {
+      text-decoration: none;
+      color: black; }
+    nav .container .row .nav-links ul li {
+      list-style: none; }
+  nav .container .row .nav-icons a {
+    text-decoration: none; }
+  nav .container .row .nav-icons i {
+    padding-left: 20px;
+    color: royalblue;
+    font-size: 20px; }
+  nav .container .row .nav-icons span {
+    padding-left: 20px;
+    color: royalblue; }
+
+main .enterance {
+  margin-bottom: 50px; }
+  main .enterance .bg {
+    background-image: url(/assets/images/427852.jpg);
+    height: 80vh;
+    background-position: center center;
+    background-attachment: fixed;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    user-select: none; }
+    main .enterance .bg h2 {
+      color: white;
+      font-size: 55px;
+      font-weight: bolder; }
+    main .enterance .bg p {
+      color: white;
+      font-size: 18px; }
+    main .enterance .bg button {
+      background-color: royalblue;
+      border-color: white;
+      color: white; }
+
+main .intro {
+  margin-bottom: 80px; }
+  main .intro .bg {
+    background-image: url(/assets/images/1.jpg);
+    height: 60vh;
+    background-position: center center;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    main .intro .bg h2 {
+      color: white;
+      font-weight: bolder;
+      font-size: 35px;
+      padding-left: 20px; }
+    main .intro .bg p {
+      color: white; }
+    main .intro .bg button {
+      background-color: royalblue;
+      border-color: white;
+      color: white;
+      width: 150px;
+      height: 40px; }
+
+main .products {
+  margin-bottom: 80px; }
+  main .products .main-col .image {
+    overflow: hidden;
+    width: 600px;
+    height: 300px;
+    object-fit: cover; }
+    main .products .main-col .image > img {
+      width: 100%;
+      height: 100%;
+      transition: 500ms all ease-in-out; }
+      main .products .main-col .image > img:hover {
+        transform: scale(1.2); }
+  main .products .main-col:hover {
+    cursor: pointer; }
+  main .products .main-col:hover {
+    text-decoration: underline;
+    color: blue; }
+  main .products .title h2 {
+    text-align: center; }
+
+main .why {
+  background-image: url(/assets/images/6ddf89a95cc31286387b11c64c1991a8.jpg);
+  height: 90vh;
+  background-position: center center;
+  background-size: cover;
+  object-fit: cover;
+  margin-bottom: 80px;
+  position: relative; }
+  main .why .box {
+    width: 430px;
+    height: 300px;
+    background-color: #008cff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 1px; }
+    main .why .box .title h2 {
+      text-align: center;
+      color: white; }
+    main .why .box .custom-btn > button {
+      border-color: white;
+      width: 150px;
+      height: 40px; }
+
+main .about-us {
+  margin-bottom: 80px; }
+  main .about-us .main-col .image {
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    object-fit: cover; }
+    main .about-us .main-col .image > img {
+      width: 100%;
+      height: 100%;
+      transition: 500ms all ease-in-out; }
+      main .about-us .main-col .image > img:hover {
+        transform: scale(1.2); }
+  main .about-us .main-col:hover {
+    cursor: pointer; }
+  main .about-us .main-col:hover {
+    text-decoration: underline;
+    color: blue; }
+  main .about-us .title h3 {
+    text-align: start; }
+
+footer div {
+  margin: 50px 0;
+  background-color: black; }
+
+footer .socialmedia {
+  display: flex;
+  justify-content: space-around; }
+  footer .socialmedia .logo {
+    display: inline-block; }
+  footer .socialmedia .s-media > a {
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    font-weight: bolder; }
+  footer .socialmedia #text > p {
+    color: white;
+    font-weight: 300; }
+  footer .socialmedia .btn-for-footer > button {
+    border-color: white;
+    background-color: black;
+    color: white;
+    width: 180px;
+    height: 50px; }
+    footer .socialmedia .btn-for-footer > button:hover {
+      background-color: white;
+      color: aqua;
+      border-radius: 20px; }
+
+footer .row {
+  display: flex;
+  justify-content: space-between; }
+  footer .row a {
+    color: white;
+    text-decoration: none; }
+  footer .row ul {
+    list-style: none; }

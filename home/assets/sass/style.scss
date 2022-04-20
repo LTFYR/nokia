@@ -1,0 +1,277 @@
+
+nav {
+
+   .container{
+
+
+       .row{
+           display: flex;
+           padding-top: 20px;
+           .logo{
+           
+
+           }
+           .nav-links{
+           
+               ul{
+                   display: flex;
+                   justify-content:space-evenly;
+                   a{
+                       text-decoration: none;
+                       color: black;
+                   }
+                   li{
+                       list-style: none;
+                   }
+               }
+           }
+           .nav-icons{
+               a{
+                text-decoration: none;
+               }
+               i{
+                padding-left: 20px;
+                color: royalblue;
+                font-size: 20px;
+               }
+               span{
+                   padding-left: 20px;
+                   color: royalblue;
+                  
+                       
+               }
+           }
+       }
+   }
+
+}
+main{
+    .enterance{
+        margin-bottom: 50px;
+        .bg{
+            background-image: url(/assets/images/427852.jpg);
+            height: 80vh;
+            background-position: center center;
+            background-attachment: fixed;
+            object-fit: contain;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            user-select: none;
+            h2{
+                color: white;
+                font-size: 55px;
+                font-weight: bolder;
+            }
+            p{
+                color: white;
+                font-size: 18px;
+            }
+            button{
+                background-color: royalblue;
+                border-color: white;
+                color: white;
+
+            }
+        }
+        
+    }
+    .intro{
+        margin-bottom: 80px;
+       .bg{
+           background-image: url(/assets/images/1.jpg);
+           height: 60vh;
+           background-position: center center;
+            object-fit: contain;
+            background-repeat: no-repeat;
+            background-size: contain;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            
+            
+
+
+            h2{
+                color: white;
+                font-weight: bolder;
+                font-size: 35px;
+                padding-left: 20px;
+            }
+            p{
+                color: white;
+            }
+            button{
+                background-color: royalblue;
+                border-color: white;
+                color: white;
+                width: 150px;
+                height: 40px;
+            }
+       } 
+    }
+    .products{
+       
+         margin-bottom: 80px;
+            .main-col{
+                .image{
+                    overflow: hidden;
+                    width: 600px;
+                    height: 300px;
+                    object-fit: cover;
+                    > img{
+                        
+                     width: 100%;
+                     height: 100%;
+                     transition: 500ms all ease-in-out;
+                     
+                     &:hover{
+                         transform: scale(1.2);
+                     }
+                    }
+                }
+                &:hover{
+                    cursor: pointer;  
+                    
+                }
+                &:hover{
+                    text-decoration: underline;
+                    color: blue;  
+                }
+            }
+        .title{
+           h2{
+               text-align: center;
+           } 
+        }
+    }
+    .why{
+        background-image: url(/assets/images/6ddf89a95cc31286387b11c64c1991a8.jpg) ;
+        height: 90vh;
+        background-position: center center;
+        background-size: cover;
+        object-fit: cover;
+        margin-bottom: 80px;
+        position: relative;
+        .box{
+            width: 430px;
+            height: 300px;
+            background-color: rgb(0, 140, 255);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            position: absolute;
+            bottom: 1px;
+            .title{
+                h2{
+                    text-align: center;
+                    color: white;
+                }
+            }
+            .custom-btn{
+                > button{
+                    border-color: white;
+                    width: 150px;
+                    height: 40px;
+                }
+            }
+        }
+    }  
+    .about-us{
+       
+        margin-bottom: 80px;
+           .main-col{
+               .image{
+                   overflow: hidden;
+                   width: 300px;
+                   height: 300px;
+                   object-fit: cover;
+                   > img{
+                       
+                    width: 100%;
+                    height: 100%;
+                    transition: 500ms all ease-in-out;
+                    
+                    &:hover{
+                        transform: scale(1.2);
+                    }
+                   }
+               }
+               &:hover{
+                   cursor: pointer;  
+                   
+               }
+               &:hover{
+                   text-decoration: underline;
+                   color: blue;  
+               }
+           }
+       .title{
+          h3{
+              text-align:start;
+          } 
+       }
+   }
+}
+footer{
+    div{
+        margin: 50px 0;
+        background-color: black;
+    }
+    .socialmedia{
+        display: flex;
+        justify-content: space-around;
+           .logo{
+               display: inline-block;
+           }
+        .s-media{
+            > a{
+                text-decoration: none;
+                color: white;
+                padding-left: 10px;
+                font-weight: bolder;
+                > i{
+                   
+                }
+            }
+        }
+        #text{
+            > p{
+                color: white;
+                font-weight:300;
+            }
+        }
+        .btn-for-footer{
+            > button{
+                border-color: white;
+                background-color: black;
+                color: white;
+                width: 180px;
+                height: 50px;
+                &:hover{
+                    background-color: white;
+                    color: aqua;
+                    border-radius: 20px;
+                }
+            }
+        }
+    }
+    .row{
+        display: flex;
+        justify-content: space-between;
+          
+        a{
+           color: white;
+           text-decoration: none;
+        }
+        ul{
+            list-style: none;
+        }
+        
+    }
+}
